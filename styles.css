@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.palindrome-box {
+    width: min(90vw, 445px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 10px 10px 15px rgba(0, 37, 6, 0.721);
+}
+
+.palindrome-input {
+    width: 65%;
+    height: 25px;
+    margin: 10px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid rgb(0, 37, 6);
+}
+
+.palindrome-btn {
+
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(0, 55, 9);
+    color: white;
+    cursor: pointer;
+}
+
+.results-text {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.palindrome-definition {
+    width: min(90vw, 445px);
+    font-size: 1rem;
+    min-height: 130px;
+    background-color: rgb(0, 55, 9);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
